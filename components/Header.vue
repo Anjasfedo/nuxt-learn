@@ -1,7 +1,7 @@
 <script lang="ts" setup></script>
 
 <template>
-  <header class="fixed inset-0">
+  <header class="">
     <ul>
       <li class="flex justify-center space-x-4">
         <NuxtLink to="/">Home</NuxtLink>
