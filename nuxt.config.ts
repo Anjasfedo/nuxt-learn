@@ -1,9 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 // import { resolve } from "path";
 export default defineNuxtConfig({
-  modules: [
-    '@nuxt/content'
-  ],
+  modules: ["@nuxt/content", "@pinia/nuxt"],
+  pinia: {
+    storesDirs: ['./stores/**', './custom-folder/stores/**'],
+  },
   // devtools: { enabled: true }
   alias: {
     // "@": resolve(__dirname, "/"),

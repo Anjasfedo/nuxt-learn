@@ -4,7 +4,7 @@ sayHello();
 </script>
 
 <template>
-  <div>Page: profile</div>
+  <Counter />
 </template>
 
 <style scoped></style>
