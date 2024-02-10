@@ -9,6 +9,7 @@
         <NuxtLink to="/events/profile">Event Profile</NuxtLink>
         <NuxtLink to="/profile">Profile</NuxtLink>
         <NuxtLink to="/my-profile">My Profile</NuxtLink>
+        <NuxtLink to="/fetch">Fetch</NuxtLink>
       </li>
     </ul>
   </header>

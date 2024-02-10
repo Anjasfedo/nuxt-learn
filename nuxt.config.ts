@@ -3,7 +3,7 @@
 export default defineNuxtConfig({
   modules: ["@nuxt/content", "@pinia/nuxt"],
   pinia: {
-    storesDirs: ['./stores/**', './custom-folder/stores/**'],
+    storesDirs: ["./stores/**", "./custom-folder/stores/**"],
   },
   // devtools: { enabled: true }
   alias: {
@@ -17,4 +17,9 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  ssr: false,
+  routeRules: {
+    '/': { prerender: true },
+    '/api/**': { cors: true },
+  }
 });

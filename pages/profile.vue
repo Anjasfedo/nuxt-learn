@@ -2,11 +2,11 @@
 const { sayHello } = useUtils();
 sayHello();
 
-const { data } = await useFetch('/api/hello')
+const { data: api } = await useFetch('/api/hello')
 </script>
 
 <template>
-  {{ data }}
+  {{ api }}
   <Counter />
 </template>
 
