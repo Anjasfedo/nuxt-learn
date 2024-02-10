@@ -27,4 +27,7 @@ export default defineNuxtConfig({
   //     title: "Nuxtss"
   //   }
   // }
+  // hooks: {
+  //   "ready": (ctx) => console.log("ready")
+  // }
 });
