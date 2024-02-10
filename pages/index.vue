@@ -1,13 +1,14 @@
 <script lang="ts" setup>
 const { $hello } = useNuxtApp();
 
-definePageMeta({
-  middleware: 'new-middleware',
-});
+// definePageMeta({
+//   middleware: 'new-middleware',
+// });
+
 </script>
 
 <template>
-  <div>Page: index</div>
+  <div>
   {{ $hello("Anjas") }}
   <img src="@/assets/img-blank.png" alt="" />
   <img src="/img-blank.png" alt="" />
@@ -15,6 +16,7 @@ definePageMeta({
     <MemoryAlert />
   </span>
   <ContentDoc />
+</div>
 </template>
 
 <style scoped></style>

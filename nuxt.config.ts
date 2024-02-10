@@ -21,5 +21,10 @@ export default defineNuxtConfig({
   routeRules: {
     '/': { prerender: true },
     '/api/**': { cors: true },
-  }
+  },
+  // app: {
+  //   head: {
+  //     title: "Nuxtss"
+  //   }
+  // }
 });

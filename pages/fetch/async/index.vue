@@ -1,9 +1,9 @@
 <script lang="ts" setup>
-
-const { data: count, pending, refresh } = await useAsyncData("count", () => 
-  $fetch("/api/count")
-);
-
+const {
+  data: count,
+  pending,
+  refresh,
+} = await useAsyncData("count", () => $fetch("/api/count"));
 </script>
 
 <template>

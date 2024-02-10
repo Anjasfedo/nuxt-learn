@@ -11,6 +11,7 @@
         <NuxtLink to="/my-profile">My Profile</NuxtLink>
         <NuxtLink to="/fetch">Fetch</NuxtLink>
         <NuxtLink to="/fetch/async">Fetch Count</NuxtLink>
+        <NuxtLink to="/seo">SEO</NuxtLink>
       </li>
     </ul>
   </header>
