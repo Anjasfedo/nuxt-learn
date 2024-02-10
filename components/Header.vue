@@ -7,6 +7,7 @@
         <NuxtLink to="/">Home</NuxtLink>
         <NuxtLink to="/events">Event</NuxtLink>
         <NuxtLink to="/events/profile">Event Profile</NuxtLink>
+        <NuxtLink to="/profile">Profile</NuxtLink>
         <NuxtLink to="/my-profile">My Profile</NuxtLink>
       </li>
     </ul>
