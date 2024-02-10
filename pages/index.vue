@@ -14,6 +14,7 @@ definePageMeta({
   <span class="p-24 text-red-300 pt-20">
     <MemoryAlert />
   </span>
+  <ContentDoc />
 </template>
 
 <style scoped></style>
