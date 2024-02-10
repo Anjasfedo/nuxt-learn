@@ -1,12 +1,10 @@
 <script lang="ts" setup></script>
 
 <template>
-  <div class="Main">
-    Page: event
-    <Alert />
-    <Profile />
+  <div class="profile">
+    Component: Profile/index
     <ProfileHeader />
-    <ProfileHeaderAvatar />
+
   </div>
 </template>
 
