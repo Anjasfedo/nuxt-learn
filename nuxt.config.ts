@@ -17,7 +17,7 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  ssr: false,
+  // ssr: false,
   routeRules: {
     '/': { prerender: true },
     '/api/**': { cors: true },
