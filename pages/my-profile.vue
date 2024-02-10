@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-const { sayHello, sayGoodBye } = useUtils();
+const { sayGoodBye } = useUtils();
 sayGoodBye();
 </script>
 
